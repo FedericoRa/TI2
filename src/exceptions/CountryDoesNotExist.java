@@ -1,7 +1,9 @@
 package exceptions;
 
 public class CountryDoesNotExist extends Exception {
-    public CountryDoesNotExist(String message){
-        super(message);
-    }
+	private static final long serialVersionUID = 1L;
+
+	public CountryDoesNotExist(){
+	    super("ERROR EL PAIS NO EXISTE");
+	  }
 }
